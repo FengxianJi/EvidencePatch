@@ -1,4 +1,4 @@
-﻿method_id,method,n,mean_delta_vs_repeat_frozen,ci95_low,ci95_high,signed_rank_p,holm_adjusted_p,positive,unchanged,negative,source_metrics,metrics_sha256,note
+method_id,method,n,mean_delta_vs_repeat_frozen,ci95_low,ci95_high,signed_rank_p,holm_adjusted_p,positive,unchanged,negative,source_metrics,metrics_sha256,note
 frozen_original,Frozen original,100,0.0,0.0,0.0,1.0,,0,100,0,all_methods_m3_100_repeat_03/metrics.json,4276c5f13e5a524debd564ef51c24b46e3c3ece7af8a5a32a231fa77dfd70026,Same-family blind rescore of frozen outputs
 one_shot_generic,One-shot generic LLM,100,-0.07,-0.18,0.04,0.2820732295513153,1.0,11,72,17,all_methods_m3_100_repeat_03/metrics.json,4276c5f13e5a524debd564ef51c24b46e3c3ece7af8a5a32a231fa77dfd70026,Same-family blind rescore of frozen outputs
 iterative_generic,Iterative generic LLM,100,-0.11,-0.22,0.0,0.08008274622261524,0.8008274622261524,10,70,20,all_methods_m3_100_repeat_03/metrics.json,4276c5f13e5a524debd564ef51c24b46e3c3ece7af8a5a32a231fa77dfd70026,Same-family blind rescore of frozen outputs

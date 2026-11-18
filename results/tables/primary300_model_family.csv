@@ -1,4 +1,4 @@
-﻿evaluation,n_papers,score_cells,mean_delta,ci95_low,ci95_high,signed_rank_p,note,source_metrics,metrics_sha256
+evaluation,n_papers,score_cells,mean_delta,ci95_low,ci95_high,signed_rank_p,note,source_metrics,metrics_sha256
 MiniMax-M3 primary,300,4500,-0.2333333333333333,-0.2811111111111111,-0.18666666666666668,2.3383608516055516e-17,Confirmatory score proxy,confirmatory_primary_300/experiment/metrics.json,78152cd38d3672daf460f677563087a6a166e133bf1bbce45703ff2a931a8459
 MiniMax-M3 same-cohort execution rerun,300,4500,-0.21555555555555556,-0.2611111111111111,-0.17,8.482862642491571e-18,Same evaluator family; not new papers,confirmatory_primary_300/experiment/rerun_v1/metrics.json,fc34e8ca4f4b4ed0e1cb42415df46b0f91b35f257304a9bb1270883029692b88
 Mistral-7B-Instruct CPU,300,1500,-0.13333333333333333,-0.21,-0.06,0.00042612530057795084,"Different evaluator family; score proxy, not expert adjudication",model_family_comparison_primary300_v1/summary.json,6a7c648348abf6f15779871b335e2777806920d7fa31782275496b5c5709c03a
