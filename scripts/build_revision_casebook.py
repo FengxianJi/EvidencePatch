@@ -60,6 +60,7 @@ def main():
   body+='<article><h2>'+escape(form['name'])+'</h2><div class="columns"><div class="panel"><h3>BEFORE</h3><pre>'+escape(form['before'])+'</pre></div><div class="panel after"><h3>AFTER</h3><pre>'+escape(form['after'])+'</pre></div></div><p>'+escape(form['effect'])+'</p></article>'
  rendered=page('Two editing surfaces: rewriting and adding a navigation anchor',body)
  rendered=rendered.replace('Authored synthetic paper and review. These are saved outputs from actual adapters, not the 100/300-paper study and not new efficacy evidence. No review scores are assigned.',escape(forms['scope']))
+ rendered=rendered.replace('Full inputs and outputs: ../input.json and ../outputs.json. Every displayed response is traceable to a saved method output. Scientific missing evidence remains missing.','Source: edit_surfaces.json. These two editing illustrations are hand-authored; no adapter or model call produced them.')
  (PAGES/'edit_surfaces.html').write_text(rendered)
  print('Rendered HTML casebook for',len(outputs),'methods and four boundary cases.')
 if __name__=='__main__':main()
