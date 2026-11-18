@@ -8,6 +8,10 @@ Resources accompanying **EvidencePatch: When Does Revising a Paper from AI Revie
 
 EvidencePatch is an evidence-grounded, budget-aware method family for responding to scientific review concerns. This release includes the implemented methods and controls, reusable parsing/retrieval/planning/verification modules, and the numeric results supporting the blog.
 
+## Inspect before/after method examples
+
+The [executed casebook](examples/revision_casebook/) shows ten controls and three EvidencePatch variants on the same authored synthetic input, with actual rendered HTML screenshots. [Open the live viewer](https://fengxianji.github.io/FXJ-BLOG/assets/revision-casebook/index.html). It is a mechanism demonstration with no review scores, separate from the research cohorts; manually authored edit-surface illustrations are labeled separately.
+
 ## What the results establish
 
 The 300-paper frozen-body appendix study has a negative M3 recommendation-score contrast (C5−C0 = −0.233/5). In a separate same-family concern audit, the paper-macro resolution proxy increased by +0.0559 among 284 eligible papers and 873 concern pairs. Of 55 proxy-improved papers, 10 increased in recommendation score, 20 tied, and 25 decreased. These are different endpoints and denominators. Expert-confirmed resolution and scientific quality improvements have not been established.

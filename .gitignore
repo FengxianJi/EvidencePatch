@@ -9,3 +9,5 @@ local_runs/
 reproduced/
 build/
 dist/
+
+node_modules/
