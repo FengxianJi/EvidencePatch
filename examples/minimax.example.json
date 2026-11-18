@@ -1,0 +1,9 @@
+{
+  "experiment_id": "user-provided-input-run",
+  "model": "MiniMax-M3",
+  "api_endpoint": "https://api.minimaxi.com/v1/text/chatcompletion_v2",
+  "key_file": "minimax.key",
+  "credential_indices": [1],
+  "max_retries": 3,
+  "min_seconds_between_requests": 10.5
+}

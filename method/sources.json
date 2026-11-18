@@ -1,0 +1,30 @@
+{
+  "scope": "show/experiment/[1]first experiment only",
+  "inspection_date": "2026-10-23",
+  "registered_conditions": 10,
+  "upstream_repositories": [
+    {
+      "method": "drpg_style",
+      "paper": "https://arxiv.org/abs/2601.18081",
+      "repository": "https://github.com/ulab-uiuc/DRPG-RebuttalAgent",
+      "repository_role": "source reference for a four-stage prompt adaptation",
+      "license_spdx": null,
+      "vendored": false,
+      "reproduction_status": "inspired adaptation; not a reproduction"
+    },
+    {
+      "method": "peerify_verify",
+      "paper": "https://arxiv.org/abs/2609.25046",
+      "repository": "https://github.com/Reviewerly-Inc/Peerify",
+      "repository_role": "source reference for claim decomposition and manuscript-grounded verification",
+      "license_spdx": null,
+      "vendored": false,
+      "reproduction_status": "inspired diagnostic adapter; not a reproduction"
+    }
+  ],
+  "local_control_methods": [
+    "frozen_original", "one_shot_generic", "iterative_generic", "retrieval_only",
+    "random_budget", "cost_greedy", "all_feasible", "oracle_selector"
+  ],
+  "license_note": "Upstream repositories are linked for attribution and method inspection. Their code is not copied into this benchmark because a clear reusable license has not been verified."
+}

@@ -1,0 +1,9 @@
+{
+  "paper_id": "synthetic-example-not-a-study-paper",
+  "manuscript": "# Example protocol\nThe toy experiment uses a fixed seed of 7.\n",
+  "reviews": "Where is the random seed specified?",
+  "budget": 2.0,
+  "seed": 7,
+  "evidence_candidates": [{"claim": "Where is the seed specified?", "quote": "The toy experiment uses a fixed seed of 7."}],
+  "candidates": [{"candidate_id": "toy_seed_pointer", "claim": "Where is the seed specified?", "quote": "The toy experiment uses a fixed seed of 7.", "cost": 1.0, "expected_benefit": 0.8, "risk": 0.0, "uncertainty": 0.0}]
+}

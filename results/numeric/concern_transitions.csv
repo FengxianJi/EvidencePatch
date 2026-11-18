@@ -1,0 +1,14 @@
+repairability,C0_status,C5_status,count
+clarification,fully_resolved,fully_resolved,3
+clarification,partially_resolved,partially_resolved,52
+clarification,unresolved,fully_resolved,4
+clarification,unresolved,partially_resolved,35
+clarification,unresolved,unresolved,445
+existing_evidence,fully_resolved,fully_resolved,40
+existing_evidence,partially_resolved,partially_resolved,4
+existing_evidence,unresolved,fully_resolved,17
+existing_evidence,unresolved,partially_resolved,7
+existing_evidence,unresolved,unresolved,12
+reanalysis,partially_resolved,partially_resolved,15
+reanalysis,unresolved,partially_resolved,12
+reanalysis,unresolved,unresolved,227

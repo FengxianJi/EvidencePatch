@@ -1,0 +1,4 @@
+﻿pass,n,mean_delta,ci95_low,ci95_high,p,api_events,reported_tokens,source_metrics,metrics_sha256,note
+BM25 risk-aware initial run,100,0.14,0.03,0.26,0.03332692920230329,338,4887521,evidencepatch_bm25_riskaware_m3_100_v1/metrics.json,ea37d8c99f4974a708dcd281d89b3376232b43653c6ec8e61be08838933426fe,Method run and M3 score; exploratory
+Frozen-output blind rescore 02,100,0.12,0.02,0.22,0.04277394525706768,200,1496754,evidencepatch_bm25_riskaware_m3_100_repeat_02/metrics.json,de7731869d24f75d05d94ba22379923a0143b9e4e53051e0ccaaf8a8a4c291a9,Rescore of frozen outputs; not method-generation replication
+Frozen-output blind rescore 03,100,0.11,-0.01,0.22,0.0895310789346695,239,1528118,evidencepatch_bm25_riskaware_m3_100_repeat_03/metrics.json,6a253b9fdb2d6e92cbcea64ef96187ac9a8c907c5b3ab44edef31bd07a34e2dc,Rescore of frozen outputs; not method-generation replication

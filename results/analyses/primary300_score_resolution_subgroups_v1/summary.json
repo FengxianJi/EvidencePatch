@@ -1,0 +1,146 @@
+{
+  "status": "exploratory_posthoc",
+  "bootstrap_replicates": 3000,
+  "seed": 20261118,
+  "inputs_sha256": {
+    "dataset/primary300_analysis_bundle_v1/paper_scores.csv": "167d391765d226d521a265b8cf285c6f9a23af4d12c7122cf3f567f371d1c0c1",
+    "results/primary300_resolution_proxy_m3_v3/corrected_paper_metrics.csv": "1eeb1ab2c312cea8576cf365cbf471cb6df3a83457e7845958092383387d8805",
+    "results/primary300_resolution_proxy_m3_v3/corrected_concern_records.csv": "5e048240314b9601df4606e1e75c564003618e2a80daa7a259db3c236a1cc6c9"
+  },
+  "groups": [
+    {
+      "group": "all",
+      "n": 284,
+      "spearman": 0.06874366824798012,
+      "ci95_pointwise": [
+        -0.056763656660173516,
+        0.19218214503833636
+      ],
+      "proxy_up_papers": 55,
+      "score_up_among_proxy_up": 10,
+      "score_up_rate_proxy_up": 0.18181818181818182,
+      "score_up_rate_proxy_flat": 0.11353711790393013,
+      "mean_score_delta_proxy_up": -0.17575757575757575,
+      "mean_score_delta_proxy_flat": -0.2343522561863173,
+      "spearman_C5_minus_placebo": 0.03156417126724581
+    },
+    {
+      "group": "baseline_lt3",
+      "n": 188,
+      "spearman": 0.19346282098628007,
+      "ci95_pointwise": [
+        0.04574839072929105,
+        0.3245619487490135
+      ],
+      "proxy_up_papers": 30,
+      "score_up_among_proxy_up": 9,
+      "score_up_rate_proxy_up": 0.3,
+      "score_up_rate_proxy_flat": 0.13924050632911392,
+      "mean_score_delta_proxy_up": 0.05555555555555555,
+      "mean_score_delta_proxy_flat": -0.15189873417721517,
+      "spearman_C5_minus_placebo": 0.040465238399044215
+    },
+    {
+      "group": "baseline_3_to_lt4",
+      "n": 93,
+      "spearman": 0.01627628168289703,
+      "ci95_pointwise": [
+        -0.1783346191982282,
+        0.21694793459050887
+      ],
+      "proxy_up_papers": 25,
+      "score_up_among_proxy_up": 1,
+      "score_up_rate_proxy_up": 0.04,
+      "score_up_rate_proxy_flat": 0.058823529411764705,
+      "mean_score_delta_proxy_up": -0.45333333333333337,
+      "mean_score_delta_proxy_flat": -0.4264705882352941,
+      "spearman_C5_minus_placebo": 0.06771569430977747
+    },
+    {
+      "group": "eligible_concerns_1_2",
+      "n": 105,
+      "spearman": 0.11286377641527853,
+      "ci95_pointwise": [
+        -0.0949438151257809,
+        0.3005927721310014
+      ],
+      "proxy_up_papers": 14,
+      "score_up_among_proxy_up": 2,
+      "score_up_rate_proxy_up": 0.14285714285714285,
+      "score_up_rate_proxy_flat": 0.12087912087912088,
+      "mean_score_delta_proxy_up": -0.11904761904761905,
+      "mean_score_delta_proxy_flat": -0.25274725274725274,
+      "spearman_C5_minus_placebo": 0.1628878212219378
+    },
+    {
+      "group": "eligible_concerns_3plus",
+      "n": 179,
+      "spearman": 0.04337988506758879,
+      "ci95_pointwise": [
+        -0.1110753834997703,
+        0.19815494872326211
+      ],
+      "proxy_up_papers": 41,
+      "score_up_among_proxy_up": 8,
+      "score_up_rate_proxy_up": 0.1951219512195122,
+      "score_up_rate_proxy_flat": 0.10869565217391304,
+      "mean_score_delta_proxy_up": -0.1951219512195122,
+      "mean_score_delta_proxy_flat": -0.2222222222222222,
+      "spearman_C5_minus_placebo": -0.03992812560494094
+    },
+    {
+      "group": "has_existing_evidence_concern",
+      "n": 63,
+      "spearman": 0.12589548388746244,
+      "ci95_pointwise": [
+        -0.11931889318582273,
+        0.3576801648370911
+      ],
+      "proxy_up_papers": 24,
+      "score_up_among_proxy_up": 6,
+      "score_up_rate_proxy_up": 0.25,
+      "score_up_rate_proxy_flat": 0.15384615384615385,
+      "mean_score_delta_proxy_up": -0.09722222222222221,
+      "mean_score_delta_proxy_flat": -0.1965811965811966,
+      "spearman_C5_minus_placebo": 0.09358355004487828
+    },
+    {
+      "group": "has_clarification_concern",
+      "n": 258,
+      "spearman": 0.04730653680955112,
+      "ci95_pointwise": [
+        -0.07766289105626194,
+        0.17126503534298232
+      ],
+      "proxy_up_papers": 49,
+      "score_up_among_proxy_up": 9,
+      "score_up_rate_proxy_up": 0.1836734693877551,
+      "score_up_rate_proxy_flat": 0.11483253588516747,
+      "mean_score_delta_proxy_up": -0.1836734693877551,
+      "mean_score_delta_proxy_flat": -0.22488038277511957,
+      "spearman_C5_minus_placebo": 0.03418104619759418
+    },
+    {
+      "group": "has_reanalysis_concern",
+      "n": 167,
+      "spearman": 0.009696839708637574,
+      "ci95_pointwise": [
+        -0.14191237682766628,
+        0.1640756787965976
+      ],
+      "proxy_up_papers": 35,
+      "score_up_among_proxy_up": 4,
+      "score_up_rate_proxy_up": 0.11428571428571428,
+      "score_up_rate_proxy_flat": 0.10606060606060606,
+      "mean_score_delta_proxy_up": -0.2380952380952381,
+      "mean_score_delta_proxy_flat": -0.22474747474747472,
+      "spearman_C5_minus_placebo": 0.0030316104691578793
+    }
+  ],
+  "limits": [
+    "Subgroups overlap; pointwise intervals are not adjusted for multiple comparisons.",
+    "Concern types and resolution labels are M3 judgments; no human ground truth.",
+    "No causal attribution; no confirmatory subgroup discovery.",
+    "Paper strata defined using baseline scores can induce mathematical coupling and regression to mean."
+  ]
+}

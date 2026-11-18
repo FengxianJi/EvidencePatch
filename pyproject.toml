@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "evidencepatch-research"
+version = "0.1.0"
+description = "Evidence-grounded review patches, baselines, and reproducible AI-review proxy results"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["method*", "dataset*", "diagnosis*", "planner*", "executor*", "verifier*", "evaluation*"]

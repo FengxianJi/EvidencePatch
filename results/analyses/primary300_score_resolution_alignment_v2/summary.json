@@ -1,0 +1,252 @@
+{
+  "analysis_id": "primary300-score-resolution-alignment-v2",
+  "status": "complete_exploratory_descriptive",
+  "cohort_papers": 300,
+  "paired_papers_with_valid_repairable_concern": 284,
+  "excluded_papers_without_proxy_denominator": 16,
+  "score_delta": {
+    "mean": -0.22300469483568072,
+    "metric": "M3 holistic 1-5 paper score, C5 minus C0"
+  },
+  "resolution_proxy_delta": {
+    "mean": 0.05586854460093897,
+    "metric": "paper-macro concern status proxy, C5 minus C0"
+  },
+  "alignment": {
+    "pearson_r": 0.0705809650925982,
+    "spearman_rho": 0.06874366824798012,
+    "spearman_paper_bootstrap_ci95": [
+      -0.05635968913176231,
+      0.18969635818439973
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20261118,
+    "direction_counts_score_sign_then_resolution_sign": {
+      "-1,+0": 122,
+      "-1,+1": 25,
+      "+0,+0": 81,
+      "+0,+1": 20,
+      "+1,+0": 26,
+      "+1,+1": 10
+    },
+    "resolution_groups": {
+      "resolution_proxy_increased": {
+        "papers": 55,
+        "mean_score_delta": -0.17575757575757575,
+        "score_delta_sign_counts": {
+          "-1": 25,
+          "1": 10,
+          "0": 20
+        }
+      },
+      "resolution_proxy_unchanged": {
+        "papers": 229,
+        "mean_score_delta": -0.2343522561863173,
+        "score_delta_sign_counts": {
+          "-1": 122,
+          "0": 81,
+          "1": 26
+        }
+      },
+      "resolution_proxy_decreased": {
+        "papers": 0,
+        "mean_score_delta": null,
+        "score_delta_sign_counts": {}
+      }
+    }
+  },
+  "concern_level": {
+    "paired_concerns": 873,
+    "all_extracted_concern_validity_counts": {
+      "valid": 1673,
+      "uncertain": 58,
+      "not_valid": 14
+    },
+    "all_extracted_concern_repairability_counts": {
+      "clarification": 566,
+      "reanalysis": 270,
+      "requires_new_experiment": 717,
+      "existing_evidence": 86,
+      "not_actionable": 12,
+      "core_method_or_claim_defect": 92,
+      "uncertain": 2
+    },
+    "C0_to_C5_transitions": {
+      "fully_resolved->fully_resolved": 43,
+      "partially_resolved->partially_resolved": 71,
+      "unresolved->fully_resolved": 21,
+      "unresolved->partially_resolved": 54,
+      "unresolved->unresolved": 684
+    },
+    "resolution_upgrade_rate_by_actionability": {
+      "existing_evidence": {
+        "eligible_concerns": 80,
+        "unresolved_to_resolved": 24,
+        "upgrade_rate": 0.3
+      },
+      "clarification": {
+        "eligible_concerns": 539,
+        "unresolved_to_resolved": 39,
+        "upgrade_rate": 0.07235621521335807
+      },
+      "reanalysis": {
+        "eligible_concerns": 254,
+        "unresolved_to_resolved": 12,
+        "upgrade_rate": 0.047244094488188976
+      }
+    },
+    "eligible_exact_quote_counts": {
+      "C0": {
+        "nonempty_quotes": 196,
+        "exact_quotes": 147
+      },
+      "C5": {
+        "nonempty_quotes": 428,
+        "exact_quotes": 399
+      }
+    }
+  },
+  "primary_score_contrasts": {
+    "C1 placebo vs C0 baseline": {
+      "mean_delta": "-0.07111111111111111",
+      "ci95_low": "-0.11333333333333336",
+      "ci95_high": "-0.027777777777777787"
+    },
+    "C2 clarification vs C0 baseline": {
+      "mean_delta": "-0.05444444444444444",
+      "ci95_low": "-0.09444444444444444",
+      "ci95_high": "-0.013333333333333334"
+    },
+    "C3 reproducibility vs C0 baseline": {
+      "mean_delta": "-0.09222222222222222",
+      "ci95_low": "-0.1322222222222222",
+      "ci95_high": "-0.052222222222222225"
+    },
+    "C5 targeted evidence vs C0 baseline (primary)": {
+      "mean_delta": "-0.2333333333333333",
+      "ci95_low": "-0.2811111111111111",
+      "ci95_high": "-0.18666666666666668"
+    }
+  },
+  "predeclared_C5_minus_placebo": {
+    "n_papers": 300,
+    "mean": -0.1622222222222222,
+    "median": 0.0,
+    "paper_level_bootstrap_ci95": [
+      -0.20666666666666667,
+      -0.11777777777777776
+    ],
+    "exact_signed_rank": {
+      "n_nonzero": 196,
+      "w_plus": 4585.5,
+      "w_minus": 14720.5,
+      "p_two_sided": 3.072062501689268e-11
+    },
+    "direction_counts": {
+      "negative": 141,
+      "zero": 104,
+      "positive": 55
+    },
+    "holm_adjusted_p_secondary_family": 1.2288250006757072e-10
+  },
+  "patch_outcome_descriptives": {
+    "papers_with_empty_c5_appendix": 25,
+    "empty_patch_mean_score_delta": 0.0,
+    "nonempty_patch_mean_score_delta": -0.2545454545454545,
+    "proxy_up_score_down_papers": 25,
+    "proxy_up_score_down_mean_c5_patch_chars": 873.64,
+    "score_delta_pearson_r_with_patch_and_baseline_features": {
+      "baseline_score": -0.4450024458793523,
+      "patch_chars": -0.16639082808165656,
+      "patch_entries": -0.17492949707630331,
+      "source_quote_match_rate": -0.1847257582938814
+    },
+    "baseline_score_strata": {
+      "low_lt_3": {
+        "papers": 199,
+        "mean_C5_minus_C0_score": -0.12395309882747067,
+        "mean_C5_minus_placebo_score": -0.1172529313232831,
+        "papers_with_proxy": 188,
+        "mean_resolution_proxy_delta": 0.04437056737588652
+      },
+      "middle_3_to_lt4": {
+        "papers": 97,
+        "mean_C5_minus_C0_score": -0.44673539518900346,
+        "mean_C5_minus_placebo_score": -0.2508591065292096,
+        "papers_with_proxy": 93,
+        "mean_resolution_proxy_delta": 0.08091397849462366
+      },
+      "high_ge4": {
+        "papers": 4,
+        "mean_C5_minus_C0_score": -0.5,
+        "mean_C5_minus_placebo_score": -0.25,
+        "papers_with_proxy": 3,
+        "mean_resolution_proxy_delta": 0.0
+      }
+    },
+    "mean_within_paper_score_sd_across_three_calls": {
+      "baseline": {
+        "mean_within_paper_sd_across_three_calls": 0.25161115047855587
+      },
+      "placebo": {
+        "mean_within_paper_sd_across_three_calls": 0.25287427508509924
+      },
+      "clarification": {
+        "mean_within_paper_sd_across_three_calls": 0.3047885718528047
+      },
+      "reproducibility": {
+        "mean_within_paper_sd_across_three_calls": 0.25402458195222155
+      },
+      "targeted_concern_evidence": {
+        "mean_within_paper_sd_across_three_calls": 0.2218683485678783
+      }
+    },
+    "weakness_feedback_keyword_screen": {
+      "explicit_no_or_insufficient_evidence": {
+        "papers_with_keyword_match_by_arm": {
+          "baseline": 19,
+          "placebo": 241,
+          "targeted_concern_evidence": 29
+        },
+        "C0_only_papers": 17,
+        "C5_only_papers": 27
+      },
+      "unsupported_or_overclaim": {
+        "papers_with_keyword_match_by_arm": {
+          "baseline": 69,
+          "placebo": 58,
+          "targeted_concern_evidence": 43
+        },
+        "C0_only_papers": 49,
+        "C5_only_papers": 23
+      },
+      "experimental_gap_terms": {
+        "papers_with_keyword_match_by_arm": {
+          "baseline": 299,
+          "placebo": 300,
+          "targeted_concern_evidence": 297
+        },
+        "C0_only_papers": 3,
+        "C5_only_papers": 1
+      },
+      "clarity_terms": {
+        "papers_with_keyword_match_by_arm": {
+          "baseline": 192,
+          "placebo": 179,
+          "targeted_concern_evidence": 175
+        },
+        "C0_only_papers": 62,
+        "C5_only_papers": 45
+      }
+    }
+  },
+  "input_sha256": {
+    "score_csv": "167d391765d226d521a265b8cf285c6f9a23af4d12c7122cf3f567f371d1c0c1",
+    "primary_state": "e7ce0d37cad2e774f200d1cdf2ba197b289b61f19a8f9728fba31e7d2f55f744",
+    "primary_contrast_csv": "02fd797a793f2377329c42d27dc54e29f932260ce70ba3d49c495e7f8d745825",
+    "primary_secondary_analysis": "a17077aabfaedb864ae47a398ad3fdaa18a3fb02d66ec50bb932721bffc9b27c",
+    "corrected_v3_paper_csv": "1eeb1ab2c312cea8576cf365cbf471cb6df3a83457e7845958092383387d8805",
+    "corrected_v3_concern_csv": "5e048240314b9601df4606e1e75c564003618e2a80daa7a259db3c236a1cc6c9"
+  },
+  "interpretation_limit": "Same-family model proxies and post-hoc descriptive alignment; not expert validity, causal attribution, or human concern-resolution truth."
+}
