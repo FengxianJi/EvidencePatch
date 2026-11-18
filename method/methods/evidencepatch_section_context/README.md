@@ -4,7 +4,7 @@ This is a development-only variant of the risk-aware EvidencePatch method. It su
 
 The method does not add experimental results or factual paraphrases. Selected appendix entries remain exact-source quotation pointers. The experiment uses the first 100 papers of the frozen Re² Main-120 development cohort and is separate from both the 300-paper confirmatory run and the original 100-paper baseline benchmark.
 
-Run with:
+Historical private-workspace run (requires original inputs; use `scripts/run_method.py` for the supported public CLI):
 
 ```bash
 python3 'show/experiment/[1]first experiment/run_evidencepatch_section_context_100.py'
@@ -18,4 +18,4 @@ python3 'show/experiment/[1]first experiment/evaluation/validate_evidencepatch_s
 
 The MiniMax-M3 score is a same-family exploratory proxy. It is not expert-confirmed concern resolution, and the Main-120 cohort is not cleared for redistribution. The runner uses no GPU and records per-paper input hashes, retrieved-section offsets and text hashes, API usage, and randomized score order locally. The validator produces appendix-output hashes from the saved state.
 
-The 100-paper run is complete: mean paired score change was 0.000/5 (95% bootstrap CI [−0.12, +0.12]), with 18 increases, 64 ties, and 18 decreases. Independent integrity validation passed. See [`EXPLORATORY_RESULTS.md`](../../../show/experiment/%5B1%5Dfirst%20experiment/results/evidencepatch_section_context_m3_100_v1/EXPLORATORY_RESULTS.md) for the protocol, cost, and full result summary.
+The 100-paper run is complete: mean paired score change was 0.000/5 (95% bootstrap CI [−0.12, +0.12]), with 18 increases, 64 ties, and 18 decreases. Independent integrity validation passed. The public [unified rescore table](../../../results/tables/all_methods_repeat03.csv) reports the frozen-output comparison; [release scope](../../../docs/RELEASE_SCOPE.md) explains which original artifacts are available.

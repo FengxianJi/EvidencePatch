@@ -12,6 +12,8 @@ EvidencePatch is an evidence-grounded, budget-aware method family for responding
 
 The [executed casebook](examples/revision_casebook/) shows ten controls and three EvidencePatch variants on the same authored synthetic input, with actual rendered HTML screenshots. [Open the live viewer](https://fengxianji.github.io/FXJ-BLOG/assets/revision-casebook/index.html). It is a mechanism demonstration with no review scores, separate from the research cohorts; manually authored edit-surface illustrations are labeled separately.
 
+See [release scope and reproducibility coverage](docs/RELEASE_SCOPE.md) for included materials, unavailable inputs, and license-file status.
+
 ## What the results establish
 
 The 300-paper frozen-body appendix study has a negative M3 recommendation-score contrast (C5−C0 = −0.233/5). In a separate same-family concern audit, the paper-macro resolution proxy increased by +0.0559 among 284 eligible papers and 873 concern pairs. Of 55 proxy-improved papers, 10 increased in recommendation score, 20 tied, and 25 decreased. These are different endpoints and denominators. Expert-confirmed resolution and scientific quality improvements have not been established.
@@ -102,3 +104,14 @@ Use [CITATION.bib](CITATION.bib) to cite the accompanying research blog and reso
   note         = {Research blog; accompanying code and experimental resources: https://github.com/FengxianJi/EvidencePatch}
 }
 ```
+
+## Build a fixed public resources bundle
+
+After committing public changes, create ZIP and tar.gz archives from tracked files only:
+
+```bash
+python3 scripts/package_public_release.py --version v0.1.0 \
+  --blog-repo /path/to/FXJ-BLOG --output /path/to/release-output
+```
+
+Omit `--blog-repo` for a code/results-only archive. The optional blog snapshot is stored under `blog-site/`; the code remains at the archive root. The archive embeds code/blog commit IDs, file hashes, and a scope note; `SHA256SUMS` accompanies both formats. Dirty public working trees, symlinks, private-file paths, and overwrites are rejected. This packages the declared public scope, not unavailable original inputs. Fixed metadata makes repeated packaging of the same tracked commits byte-identical.

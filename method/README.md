@@ -2,7 +2,7 @@
 
 **Public release entry point:** see [the repository README](../README.md) and [running methods](../docs/RUNNING_METHODS.md). The notes below preserve original experiment context; historical workspace paths are not included raw datasets. Use `scripts/run_method.py` for the supported public CLI.
 
-EvidencePatch is the project's core method family. This folder separates its implementation variants from the ten registered baseline/control conditions below; the ten controls are not ten proposed methods. See the project-level [method and experiment map](../METHOD_STATUS.md) for the current implementation state and evidence limits.
+EvidencePatch is the project's core method family. This folder separates its implementation variants from the ten registered baseline/control conditions below; the ten controls are not ten proposed methods. See the project-level [release scope](../docs/RELEASE_SCOPE.md) for the current implementation state and evidence limits.
 
 This package is scoped to `/show/experiment/[1]first experiment`. It supplies ten registered controls through `method.get_method(method_id)(context)`. Every call returns a dictionary with `method_id` and `appendix_markdown`; methods may add diagnostics such as selected actions, verification labels, unresolved concerns, and API-call count.
 
