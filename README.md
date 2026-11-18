@@ -2,6 +2,8 @@
 
 Resources accompanying **EvidencePatch: When Does Revising a Paper from AI Reviews Actually Help?**
 
+**Authors:** Fengxian Ji, Fan Zhang, Jingpu Yang, Zhuohan Xie.
+
 **[Read the blog (English)](https://fengxianji.github.io/FXJ-BLOG/en/research/2026/11/17/evidence-only-appendices/)** · **[中文博客](https://fengxianji.github.io/FXJ-BLOG/research/2026/11/17/evidence-only-appendices/)** · [Results tables](results/tables/) · [Figures](results/figures/) · [Anonymous numeric records](results/numeric/) · [Download repository ZIP](https://github.com/FengxianJi/EvidencePatch/archive/refs/heads/main.zip)
 
 EvidencePatch is an evidence-grounded, budget-aware method family for responding to scientific review concerns. This release includes the implemented methods and controls, reusable parsing/retrieval/planning/verification modules, and the numeric results supporting the blog.
@@ -81,3 +83,18 @@ The release contains no source manuscripts, original reviews, quotations from th
 Archived protocol sources retain their historical workspace-relative assumptions and cannot reproduce the private original experiment without its inputs. They are provided for methodological inspection. The supported public commands are the four scripts listed above. [Source snapshot hashes](docs/source_snapshot.json) identify the exported originals; [release checksums](RELEASE_MANIFEST.json) identify the public files after adaptation.
 
 The publication uses the same model family for concern labeling and its local-resolution judgment. Some supporting quotes failed exact match and two exceeded the word limit. Exploratory subgroup intervals are unadjusted; they cannot establish a reliable subgroup benefit. See [results/analyses/](results/analyses/) for the saved limitations.
+
+## Citation
+
+Use [CITATION.bib](CITATION.bib) to cite the accompanying research blog and resources.
+
+```bibtex
+@misc{ji2026evidencepatch,
+  author       = {Ji, Fengxian and Zhang, Fan and Yang, Jingpu and Xie, Zhuohan},
+  title        = {{EvidencePatch}: When Does Revising a Paper from {AI} Reviews Actually Help?},
+  year         = {2026},
+  month        = nov,
+  url          = {https://fengxianji.github.io/FXJ-BLOG/en/research/2026/11/17/evidence-only-appendices/},
+  note         = {Research blog; accompanying code and experimental resources: https://github.com/FengxianJi/EvidencePatch}
+}
+```

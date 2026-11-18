@@ -3,8 +3,9 @@
   "sha256": {
     ".github/workflows/verify.yml": "e934dc184521f2c3a97ced53efecd0b266d0696a5d000052794891962b37cd53",
     ".gitignore": "56b0c0387b2cfca12ee95444f357a13deb6e6ca4b943d2503cb80a1b92ac630d",
+    "CITATION.bib": "ad196ff690d21c29a6165ac325c88bba73b03f7a00bf9d03ea6b94b7d36fbee6",
     "Makefile": "eb9f94c4c8a18a7e117e3f51649cc2a4abdf01aab7ddf7da482cb33b269f04cd",
-    "README.md": "c652f789548e1ed5b317140b298250cc8d52b17847c24d576ae5866d1928bf8b",
+    "README.md": "c25c1d795806334a6195d8e8447ca0473fc0eb2535cb304d9fba4cea34d68df8",
     "dataset/__init__.py": "a7fab112ff5e39cd18589a3c654160507ecba7e258372a0b1c3947235cdad802",
     "dataset/artifacts.py": "66144d088d7db45562757c2aff9235d84b4aefa68bb0ca4f00412f4b4e44e145",
     "dataset/corpus.py": "7a76a5de33d139d12ce1abff89ffd79134681acc0f4d69c14f0faaac4824f522",
